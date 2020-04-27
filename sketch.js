@@ -11,7 +11,7 @@ var framesChange = 140
 
 function preload(){
   q_coatl_png = loadImage('./img/quet.png')
-  bg = loadImage('./img/ tenochtitlan.jpg')
+  bg = loadImage('./img/tenochtitlan.png')
 }
 
 function setup() {
@@ -25,7 +25,7 @@ function setup() {
 
 function draw() {
   //background
-  image(bg,bgX,0,3000,height)
+  image(bg,bgX,0,1000,height)
 
   //Pipes animation
   for(let i = pipes.length-1; i >= 0; i--){
@@ -33,7 +33,7 @@ function draw() {
     pipes[i].move()
 
     //check if the quetzal has hittted the pipes
-    pipes[i].hit(q_coatl)
+    //pipes[i].hit(q_coatl)
     //if quetzalcoatl has passed tru the pipes, add points
     pipes[i].addPoints(q_coatl)
 
