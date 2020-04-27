@@ -33,7 +33,7 @@ function draw() {
     pipes[i].move()
 
     //check if the quetzal has hittted the pipes
-    //pipes[i].hit(q_coatl)
+    pipes[i].hit(q_coatl)
     //if quetzalcoatl has passed tru the pipes, add points
     pipes[i].addPoints(q_coatl)
 
