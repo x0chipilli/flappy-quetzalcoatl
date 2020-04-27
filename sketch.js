@@ -86,4 +86,5 @@ function keyPressed(){
 
 function touchStarted(){
   q_coatl.up()
+  return false
 }
