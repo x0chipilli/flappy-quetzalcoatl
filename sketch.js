@@ -85,7 +85,5 @@ function keyPressed(){
 }
 
 function touchStarted(){
-  if (key == ' '){
-    q_coatl.up()
-  }
+  q_coatl.up()
 }
